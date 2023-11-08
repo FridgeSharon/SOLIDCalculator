@@ -1,4 +1,3 @@
-using SOLIDCalculator.Interfaces;
 using SOLIDCalculator.Services;
 
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
