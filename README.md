@@ -20,3 +20,16 @@ This project doesn't validate input, it is assumed that the input is valid.
 Acceptable input should be in the form of `number operator number` without spaces or gaps (e.g. `1+2` or `3x4`).  
 Input can have multiple operators (e.g. `1+2x3-4`).  
 Input can begin with a negative number (e.g. `-981+2` or `-143x2`).
+
+## Possible upgrades
+
+- Possible saving of calculations to DB or memory
+- Authentication and authorization, although completely unnecessary for this project.
+- Proper CORS rules.
+- Input validation (not required by task).
+- Using `Stack` instead of `Set` for the calculation.
+
+## Notes
+
+Unit tests are missing.  
+I tried to create tests for too long and could not get them to work.
