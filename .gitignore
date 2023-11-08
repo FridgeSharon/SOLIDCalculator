@@ -4,8 +4,8 @@
 .vs
 
 # build artifacts
-bin/
-obj/
+bin
+obj
 
 # .NET Core
 *.dll
