@@ -1,3 +1,16 @@
-/.vs
-/.vscode
-/bin
+# IDE Files
+.vscode
+.github
+.vs
+
+# build artifacts
+bin/
+obj/
+
+# .NET Core
+*.dll
+*.exe
+*.pdb
+*.user
+*.vspscc
+*.dotnet-*
